@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="portfolioStyle.css">
 </head>
 
-<body>
+<body onload="pageLoaded()">
     <!--Contact Infos-->
     <h1>Charlie Wallace</h1>
     <p class="info">Phone: (208)419-8902</p>
@@ -36,6 +36,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-current="page" href="index.html">Home</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="platformer.html">Individual Platformer</a>
                     </li>
@@ -82,11 +85,4 @@
         </p>
     </div>
 </body>
-
-<script>
-    document.getElementById("navButton").addEventListener('click', () => {
-
-    });
-</script>
-
 </html>
