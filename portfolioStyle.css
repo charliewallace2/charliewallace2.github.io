@@ -2,6 +2,35 @@ div {
     justify-self: center;
 }
 
+h4 {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.section {
+    font-size: 35px;
+}
+
+.header-block, .footer-block {
+    background: seagreen;
+    width: 100%;
+    padding: 15px;
+}
+
+.footer-block {
+    padding-top: 50px;
+}
+
+.page-header {
+    justify-self: center;
+    font-size: 55px;
+}
+
 .navBar {
     font-size: 2em;
     justify-content: center;
@@ -31,4 +60,8 @@ div {
 
 #linkedin-img, #linkedin {
     display: inline;
+}
+
+#resume-name {
+    font-size: 40px;
 }
