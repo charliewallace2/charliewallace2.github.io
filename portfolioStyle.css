@@ -1,3 +1,8 @@
 .navBar {
     font-size: 2em;
+    justify-content: center;
+}
+
+.container {
+    padding-top: 10px;
 }
