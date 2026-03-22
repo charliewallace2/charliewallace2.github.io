@@ -1,3 +1,7 @@
+div {
+    justify-self: center;
+}
+
 .navBar {
     font-size: 2em;
     justify-content: center;
@@ -5,4 +9,26 @@
 
 .navbar-brand {
     font-size: 2em;
+}
+
+.img-fluid {
+    max-width: 50%;
+}
+
+.footer {
+    padding-bottom: 50px;
+}
+
+.profile-image {
+    padding-top: 10px;
+}
+
+#intro-paragraph {
+    max-width: 70%;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
+#linkedin-img, #linkedin {
+    display: inline;
 }
