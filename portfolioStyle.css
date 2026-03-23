@@ -1,15 +1,38 @@
+
+:root {
+    --lg-font: "Zen Dots", sans-serif;
+    --sm-font: "Lexend", sans-serif;
+    --background-color: #64916D;
+}
+
+body {
+    background: var(--background-color);
+    color: white;
+    font-size: 1.25rem;
+}
+
 div {
     justify-self: center;
+}
+
+p, ul {
+    font-family: var(--sm-font);
+}
+
+h1, h2, h3 {
+    font-family: var(--lg-font);
 }
 
 h4 {
     text-decoration: underline;
     font-size: 20px;
+    font-family: var(--sm-font);
 }
 
 h5 {
     font-size: 17px;
     font-weight: 400;
+    font-family: var(--sm-font);
 }
 
 .section {
@@ -17,7 +40,8 @@ h5 {
 }
 
 .header-block, .footer-block {
-    background: seagreen;
+    background: black;
+    color: white;
     width: 100%;
     padding: 15px;
 }
@@ -37,7 +61,8 @@ h5 {
 }
 
 .nav-item {
-    font-size: 15px;
+    font-size: 100%;
+    margin-bottom: 5px;
 }
 
 .navbar-brand {
@@ -56,10 +81,16 @@ h5 {
     padding-top: 10px;
 }
 
+.contact-info {
+    border-bottom: 5px solid black;
+    padding-inline: 200px;
+}
+
 #intro-paragraph {
-    max-width: 70%;
+    max-width: 30%;
     justify-content: center;
-    padding-bottom: 200px;
+    margin-bottom: 150px;
+    font-weight: 300;
 }
 
 #linkedin-img, #linkedin {
