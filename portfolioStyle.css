@@ -30,13 +30,20 @@ h4 {
 }
 
 h5 {
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 400;
     font-family: var(--sm-font);
 }
 
+ul.resume-list {
+    font-size: 17px;
+}
+
 .section {
     font-size: 35px;
+    border-top: 5px solid black;
+    padding-top: 20px;
+    
 }
 
 .header-block, .footer-block {
@@ -102,4 +109,5 @@ h5 {
 
 #resume-name {
     font-size: 40px;
+    justify-self: center;
 }
