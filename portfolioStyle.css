@@ -96,6 +96,14 @@ ul.resume-list {
     padding-inline: 200px;
 }
 
+.center {
+    justify-self: center;
+}
+
+.border {
+    border: 5px solid black;
+}
+
 #intro-paragraph {
     max-width: 30%;
     justify-content: center;
@@ -109,5 +117,14 @@ ul.resume-list {
 
 #resume-name {
     font-size: 40px;
+    justify-self: center;
+}
+
+#resume {
+    max-width: 40%;
+}
+
+#farming-desc {
+    max-width: 60%;
     justify-self: center;
 }
