@@ -104,6 +104,20 @@ ul.resume-list {
     border: 5px solid black;
 }
 
+.farming-image {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.farming-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
 #intro-paragraph {
     max-width: 30%;
     justify-content: center;
