@@ -35,6 +35,11 @@ h5 {
     font-family: var(--sm-font);
 }
 
+iframe {
+    min-block-size: 200%;
+    min-inline-size: 200%;
+}
+
 ul.resume-list {
     font-size: 17px;
 }
@@ -118,6 +123,30 @@ ul.resume-list {
     margin-bottom: 20px;
 }
 
+.project-desc {
+    max-width: 60%;
+    justify-self: center;
+}
+
+.unreachable-container {
+    max-width: 90%;
+    margin: 30px auto;
+    justify-content: center;
+}
+
+.unreachable-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.video-col {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    padding-bottom: 300px;
+}
+
 #intro-paragraph {
     max-width: 30%;
     justify-content: center;
@@ -136,9 +165,4 @@ ul.resume-list {
 
 #resume {
     max-width: 40%;
-}
-
-#farming-desc {
-    max-width: 60%;
-    justify-self: center;
 }
