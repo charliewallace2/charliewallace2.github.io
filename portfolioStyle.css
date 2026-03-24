@@ -111,7 +111,7 @@ ul.resume-list {
 }
 
 .contact-info {
-    max-width: 100%;
+    max-width: 85%;
     align-content: center;
 }
 
@@ -240,10 +240,10 @@ ul.resume-list {
     border-top: 5px solid black;
     justify-content: center;
     align-self: center;
+    max-width: 75%;
     padding-top: 50px;
     margin-top: 50px;
     margin-bottom: 150px;
-    margin-inline: 100px;
     font-weight: 300;
 }
 
