@@ -68,10 +68,11 @@ ul.resume-list {
 
 .navBar {
     font-size: 2em;
+    max-height: auto;
 }
 
 .nav-item {
-    font-size: 1em;
+    font-size: 70%;
     margin-bottom: 5px;
 }
 
@@ -103,8 +104,7 @@ ul.resume-list {
 }
 
 .contact-info {
-    border-bottom: 5px solid black;
-    padding-inline: 200px;
+    max-width: 100%;
 }
 
 .info {
@@ -156,7 +156,7 @@ ul.resume-list {
 
 .unreachable-container {
     max-width: 90%;
-    margin: 30px auto;
+    margin: 10px;
     justify-content: center;
 }
 
@@ -214,9 +214,13 @@ ul.resume-list {
 }
 
 #intro-paragraph {
-    max-width: 30%;
+    border-top: 5px solid black;
     justify-content: center;
+    align-self: center;
+    padding-top: 50px;
+    margin-top: 50px;
     margin-bottom: 150px;
+    margin-inline: 100px;
     font-weight: 300;
 }
 
@@ -226,7 +230,7 @@ ul.resume-list {
 }
 
 #resume {
-    max-width: 40%;
+    max-width: 50%;
 }
 
 #website-images {
