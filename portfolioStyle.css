@@ -35,7 +35,7 @@ h5 {
     font-family: var(--sm-font);
 }
 
-iframe {
+#unreachable-video {
     min-block-size: 200%;
     min-inline-size: 200%;
 }
@@ -109,23 +109,37 @@ ul.resume-list {
     border: 5px solid black;
 }
 
-.farming-image {
+.project-image {
     max-width: 80%;
     height: auto;
     display: block;
     margin: auto;
 }
 
-.farming-image-container {
+.image-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
 }
 
+.farming-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding-block: 10px;
+}
+
+.farming-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .project-desc {
     max-width: 60%;
-    justify-self: center;
+    margin: 0 auto;
 }
 
 .unreachable-container {
@@ -138,6 +152,8 @@ ul.resume-list {
     max-width: 100%;
     height: auto;
     display: block;
+    border: 5px solid black;
+    border-radius: 25px;
 }
 
 .video-col {
@@ -145,6 +161,27 @@ ul.resume-list {
     justify-content: center;
     margin-top: 15px;
     padding-bottom: 300px;
+}
+
+.website-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 25px;
+}
+
+.website-image-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.website-images-container {
+    max-width: 100%;
+    margin: 30px auto;
 }
 
 #intro-paragraph {
@@ -165,4 +202,13 @@ ul.resume-list {
 
 #resume {
     max-width: 40%;
+}
+
+#website-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 15px;
 }
