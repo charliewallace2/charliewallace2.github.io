@@ -1,4 +1,3 @@
-
 :root {
     --lg-font: "Zen Dots", sans-serif;
     --sm-font: "Lexend", sans-serif;
@@ -15,11 +14,14 @@ div {
     justify-self: center;
 }
 
-p, ul {
+p,
+ul {
     font-family: var(--sm-font);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: var(--lg-font);
 }
 
@@ -43,10 +45,11 @@ ul.resume-list {
     font-size: 35px;
     border-top: 5px solid black;
     padding-top: 20px;
-    
+
 }
 
-.header-block, .footer-block {
+.header-block,
+.footer-block {
     background: black;
     color: white;
     width: 100%;
@@ -59,7 +62,6 @@ ul.resume-list {
 
 .page-header {
     justify-self: center;
-    font-size: 55px;
 }
 
 .navbar-style {
@@ -166,15 +168,7 @@ ul.resume-list {
     min-width: 50%;
     height: auto;
     display: block;
-    
-}
 
-.video-col {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-    padding-bottom: 300px;
-    max-width: 100%;
 }
 
 .website-image {
@@ -182,7 +176,7 @@ ul.resume-list {
     height: auto;
     display: block;
     margin: auto;
-    
+
 }
 
 .website-image-col {
@@ -210,6 +204,26 @@ ul.resume-list {
 
 .inline {
     display: inline;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    margin-inline: 25px;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 #linkedin {
