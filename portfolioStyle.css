@@ -118,7 +118,7 @@ ul.resume-list {
 }
 
 .info {
-    margin-block: 5px;
+    margin: 5px;
 }
 
 .center {
@@ -234,10 +234,6 @@ ul.resume-list {
     border-radius: 25px;
 }
 
-#linkedin {
-    color: #0077B5;
-}
-
 #intro-paragraph {
     border-top: 5px solid black;
     font-size: 100%;
@@ -270,9 +266,6 @@ ul.resume-list {
     gap: 15px;
 }
 
-/* #unreachable-video {
-}  */
-
 #slides-link {
     display: block;
     text-align: center;
@@ -283,4 +276,5 @@ ul.resume-list {
 
 #contact-link {
     color: white;
+    display: inline;
 }
